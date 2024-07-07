@@ -1,4 +1,7 @@
+
+
 import 'package:flutter/material.dart';
+
 import 'package:navigation_page/screen_1.dart';
 import 'package:navigation_page/screen_2.dart';
 
@@ -18,13 +21,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.blue,
       ),
-      home: const Screen1(),
+      home: Screen1(),
       routes: {
         'screen1': (context) {
-          return const Screen1();
+          return Screen1();
         },
         'screen2': (context) {
-          return const Screen2();
+          return Screen2();
         }
       },
     );
